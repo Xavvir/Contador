@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    color: white;
+    border-color: azure;
+    background-image: url(https://images.wallpapersden.com/image/download/galaxy-stars-over-mountain_69469_1280x720.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 60%;
+    border: 3px solid white;
+    background-color: rgb(241, 214, 214);
+    color: black;
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    color: white;
+    display: flex;
+}
+
+#currentNumber {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+}
